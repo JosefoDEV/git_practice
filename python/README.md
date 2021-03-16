@@ -5,7 +5,7 @@ This directory contains usefull information about python language
 ## ctrlflow.py
 
 Contains python control flow methodics. How to use **if**/**elif**/**else** statement.
-Using relational operators.
+Usage of relational operators: *>*, *>/*, *<*, *<=*
 Includes also Boolean Operators: *and*/*or*/*not*
 
 ## errors.py
