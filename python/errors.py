@@ -2,7 +2,7 @@
 
 # 1. SyntaxError: user do not follow proper structure (syntax) of the language
 # Example: missing quote at the end of the string
-pring("Hello World!)
+print("Hello World!)
 # Another examples: 'missing 2nd bracket, missing colon.
 
 # 2. NameError: when interpreter detects a variable that is unknown

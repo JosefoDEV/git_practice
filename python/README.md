@@ -12,6 +12,10 @@ Includes also Boolean Operators: **and**/**or**/**not**
 
 Describes basic types of errors in python
 
+## functions.py
+
+Contains tutorial for functions.
+
 ## import.py
 
 How to import a module
