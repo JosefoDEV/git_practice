@@ -30,3 +30,9 @@ if flag or (1 == 2):
   print(statement + " True")
 else:
   print(statement + " False")
+
+statement = "if flag or not (1 == 2):";
+if flag or not (1 == 2):
+  print(statement + " True")
+else:
+  print(statement + " False")
