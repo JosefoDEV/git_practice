@@ -17,7 +17,7 @@ ages = [26, 34, 13]
 # apply zip
 names_ages = zip(names, ages)
 # prints object information
-print(names_ages) 
+print(names_ages)
 
 # print nested lists
 print(list(names_ages))
@@ -60,4 +60,16 @@ print(list(c_list2))
 # Generates: 1, 3, 5, 7, 9
 c_list3 = range(1, 10, 2)
 print(list(c_list3))
+
+
+# Access to first and last elements
+n_list = [1, 2, 3, 4, 5]
+print("List n_list: " + str(n_list))
+print("First element of list n_list: " + str(n_list[0]))
+print("Last element of list n_list: " + str(n_list[-1]))
+
+
+
+
+
 

@@ -42,6 +42,21 @@ def say_hello(greetings="Hello"):
 say_hello()
 say_hello("Good Morning")
 
+# Functions are able to also return a value
+def area(length, width):
+  return length * width
+
+# Functions can also return multiple variables
+def getNumbers(number1, number2):
+  return number1, number2
+
+num1, num2 = getNumbers(2, 5)
+
+print("Number1: " + str(num1) + ", Number2: " + str(num2))
+
+
+print("Area of 5 x 10 is " + str(area(5, 10)))
+
 ### Built-in functions
 # Built-in functions are functions that we use and that are defined in python itself
 # Example of built-in functions: 'print()', ...
@@ -66,4 +81,21 @@ print(num_max)
 # using built-in round() function
 rounded_num2_onedec = round(num2, 1)
 print(rounded_num2_onedec)
+
+
+### Nested functions
+
+def outher_function():
+  print("outher_function")
+
+  def inner_function():
+    print("inner_function")
+
+  inner_function()
+
+
+# Calling following would provide this error: "NameError: name 'inner_function' is not defined"
+#inner_function()
+outher_function()
+
 
