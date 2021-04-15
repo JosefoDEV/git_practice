@@ -30,6 +30,16 @@ e_list.append("brick")
 
 print(e_list)
 
+# Append items to list
+e_list.append("stone")
+
+print(e_list)
+
+# Removing items from list
+e_list.remove("brick")
+
+print(e_list)
+
 # Adding multiple items using '+'
 n_list = ['stone', 'paper']
 e_list = n_list + ['scissors', 'cloth']
@@ -70,6 +80,29 @@ print("Last element of list n_list: " + str(n_list[-1]))
 
 
 
+tmp_list = [ "blue", "yellow", "gray", "violet", "gray", "black", "green", "blue" ]
+
+# = List methods
+# .count() : counts the number of occurrences of an element in a list
+print(tmp_list.count("blue"))
+
+print(tmp_list)
+# .insert() : add an element into a specific index of a list
+tmp_list.insert(1, "red")
+
+print(tmp_list)
+
+# .pop() : removes an element from a specific indesx or from the end of a list
+# note that .pop() can have optional argument
+tmp_list.pop()
+print(tmp_list)
+tmp_list.pop(-2)
+print(tmp_list)
 
 
 
+# .sort() : sorts a list
+
+# = build-in functions
+# range() : create a sequence of integers
+# sorted() : sorts a list
