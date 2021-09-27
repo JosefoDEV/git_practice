@@ -2,29 +2,6 @@
 
 Bash is a UNIX shell and command language. It is replacement for the Bourne shell. It is used for many linux distribution as default login shell.
 
-## intor.sh
+## first.sh
 
-Contains python control flow methodics. How to use **if**/**elif**/**else** statement.
-Usage of relational operators: **>**, **>=**, **<**, **<=**
-Includes also Boolean Operators: **and**/**or**/**not**
-
-## errors.py
-
-Describes basic types of errors in python
-
-## functions.py
-
-Contains tutorial for functions.
-
-## import.py
-
-How to import a module
-
-
-## list.py
-
-Contains introduction how to create list in python.
-It also contains another usefull information for appending items to list. 
-Creating combined list using **zip** function.
-Also **range** function is documented with various examples.
-
+First hello world program
