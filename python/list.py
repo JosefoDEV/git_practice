@@ -102,7 +102,65 @@ print(tmp_list)
 
 
 # .sort() : sorts a list
+letters = [ 'F', 'E', 'J', 'A', 'L', 'T' ]
+print(letters)
+
+letters.sort()
+print(letters)
+
+letters.sort(reverse=True)
+print(letters)
+
+
 
 # = build-in functions
 # range() : create a sequence of integers
 # sorted() : sorts a list
+# len() : find out length of list
+# zip() : combines lists together
+
+
+
+print("Number of items in tmp_list: " + str(len(tmp_list)))
+
+
+# Slicing lists
+# Syntax: my_list[start_index:end_index]
+# Example:
+colours = [ "red", "green", "blue", "magenta", "yellow", "cyan", "black", "white" ]
+print(colours)
+
+colours_rgb = colours[0:3]
+print(colours_rgb)
+
+# Slicing lists II
+# get elements from start of list
+# Syntax: my_list[:n]
+# Example:
+colours_first_five = colours[:5]
+print(colours_first_five)
+
+# get elements from tail of list
+# Syntax: my_list[-n:]
+# Example:
+colours_last_two = colours[-2:]
+print(colours_last_two)
+
+# get elements from start of list (ignoring spefified number of last elements)
+# Syntax: my_list[:-n]
+# Example:
+colours_sliceoff_last_four = colours[:-4]
+print(colours_sliceoff_last_four)
+
+# Using built-in sorted function
+# Note: sorted() will generate new list rather than modifying it
+words = [ "number", "cell", "digital", "car", "lost", "autonomous" ]
+print(words)
+
+words_sorted = sorted(words)
+print(words_sorted)
+
+
+
+
+
