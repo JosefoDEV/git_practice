@@ -28,3 +28,11 @@ It also contains another usefull information for appending items to list.
 Creating combined list using **zip** function.
 Also **range** function is documented with various examples.
 
+## tuple.py
+
+Contains information about tuple data structure.
+Example:
+```
+student = ( "Joe", "Woods", 23, "student address" )
+```
+
