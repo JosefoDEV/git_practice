@@ -392,7 +392,7 @@ char greeting[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '\0'};
 
 // second way to create string is more simple
 char str[] = "Hello World";
-
+```
 ### Length of string
 
 Use `strlen()` function to get the length (Do not forget to include <string.h>
