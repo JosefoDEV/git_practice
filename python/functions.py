@@ -98,4 +98,17 @@ def outher_function():
 #inner_function()
 outher_function()
 
+# Multiple returns
+def getDays():
+  return "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday";
+  
+  
+days = getDays()
+
+print(type(days))
+
+
+print(days)
+
+
 

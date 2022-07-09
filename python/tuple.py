@@ -8,7 +8,7 @@ print(item[0])
 print(item[1])
 print(item[-1])
 
-
+# Unpacking tuple
 name, colour, weight = item
 
 print("Item name:", name)

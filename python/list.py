@@ -160,6 +160,20 @@ print(words)
 words_sorted = sorted(words)
 print(words_sorted)
 
+# Would produces IndexError
+#print(words[8])
+
+nums = [65, 66, 67]
+letters = ['A', 'B', 'C']
+
+# zip() will combine the arrays together
+nums_letters = zip(nums, letters)
+
+print(nums_letters)
+print(list(nums_letters))
+
+
+
 
 
 
