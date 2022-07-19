@@ -1,0 +1,1 @@
+This is my fist line I created in new text file!I am appending some text to this file.I am appending another cool text to this file.

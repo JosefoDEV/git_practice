@@ -23,80 +23,30 @@ def multiply(number1, number2):
 
 multiply(2, 5)
 
+# In Python there are 3 different types of arguments we can give a function.
 
-# There are three different types of arguments we can put to function
-# 1. Positional arguments: called by their position in the function definition
-#   Example
-multiply(2, 5)
+# * Positional arguments: arguments that can be called by their position in the function
+# * Keyword arguments: arguments that can be called by their name
+# * Default arguments: arguments that are given default values.
 
-# 2. Keyword arguments: these can be called by their name
-#   Example
-#   + the order of parameters is not tied
-multiply(number2=5, number1=2)
+# number1 is positioned as the first parameter, number2 is positioned as the second parameter.
+def product(number1, number2, printit = False):
+  if (printit):
+    print(number1 * number2)
+  return number1 * number2
+ 
 
-# 3. Default arguments: which sets the default values for the argument
-#   Example
-def say_hello(greetings="Hello"):
-  print(greetings + " World!")
+# 5 is number1
+# 10 is number2 
+product(5, 10)
 
-say_hello()
-say_hello("Good Morning")
+# calling the function using keyword arguments
+product(number2=10, number1=5)
 
-# Functions are able to also return a value
-def area(length, width):
-  return length * width
+product(5, 10, True)
 
-# Functions can also return multiple variables
-def getNumbers(number1, number2):
-  return number1, number2
-
-num1, num2 = getNumbers(2, 5)
-
-print("Number1: " + str(num1) + ", Number2: " + str(num2))
-
-
-print("Area of 5 x 10 is " + str(area(5, 10)))
-
-### Built-in functions
-# Built-in functions are functions that we use and that are defined in python itself
-# Example of built-in functions: 'print()', ...
-# Here we can find list of supported built-in functions for python 3:
-# https://docs.python.org/3/library/functions.html
-
-num1 = 12.23
-num2 = 3.45
-num3 = 50.23
-
-# using built-in min() function
-num_min = min(num1, num2, num3)
-print(num_min)
-
-
-# using built-in max() function
-num_max = max(num1, num2, num3)
-print(num_max)
-
-
-
-# using built-in round() function
-rounded_num2_onedec = round(num2, 1)
-print(rounded_num2_onedec)
-
-
-### Nested functions
-
-def outher_function():
-  print("outher_function")
-
-  def inner_function():
-    print("inner_function")
-
-  inner_function()
-
-
-# Calling following would provide this error: "NameError: name 'inner_function' is not defined"
-#inner_function()
-outher_function()
+# Built-in functions are functions that are coming with language it self
+# Example: print(), len(), str(), max(), ...
 
 # Multiple returns
 def getDays():
@@ -106,9 +56,4 @@ def getDays():
 days = getDays()
 
 print(type(days))
-
-
 print(days)
-
-
-
